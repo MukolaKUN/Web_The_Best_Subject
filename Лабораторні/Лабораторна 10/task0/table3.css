@@ -1,0 +1,50 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.wrap{
+	width: 30%;
+	margin: 0 auto;
+	border: 2px solid green;
+}
+.Basic{
+	color: #67CB71;
+	height: 60px;
+	width: 100%;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 30px;
+	font-family: "Arial";
+	font-weight: 800;
+}
+.price{
+	background-color:  #67CB71;
+	height: 100px;
+	text-align: center;
+	font-size: 30px;
+}
+.option{
+	padding-top: 30px;
+	height: 50px;
+	text-align: center;
+}
+.option:nth-child(odd){
+	background-color: grey;
+}
+.button{
+	height: 120px;
+}
+button{
+	width: 200px;
+	height: 70px;
+	background-color: white;
+	border: 3px solid green;
+	margin-top: 30px;
+	margin-left: 100px;
+}
+button:hover{
+	background-color: #5FCB38;
+}
+button:active{
+	background-color: red;
+}

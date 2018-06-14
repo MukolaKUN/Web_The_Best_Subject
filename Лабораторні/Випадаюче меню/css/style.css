@@ -1,0 +1,99 @@
+body{
+    background-image: url(../img/ep_naturalwhite.png);
+}
+header{
+    font-family: 'Cuprum','Arial', sans-serif;
+
+    margin-top: 200px;
+}
+.dws-menu *{
+    margin: 0;
+    padding: 0;
+}
+.dws-menu ul,
+.dws-menu ol{
+    list-style: none;
+}
+.dws-menu > ul{
+    display: flex;
+
+    justify-content: center;
+}
+.dws-menu > ul li a{
+    font-size: 14px;
+
+    display: block;
+
+    padding: 15px 30px 15px 40px;
+
+    transition: all .3s ease;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #454547;
+    background: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f1f1f1+50,e1e1e1+51,f6f6f6+100;White+Gloss+%231 */
+    background: #fff; /* Old browsers */
+    background:    -moz-linear-gradient(top, #fff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #fff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%); /* Chrome10-25,Safari5.1-6 */
+    background:         linear-gradient(to bottom, #fff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */;
+}
+.dws-menu > ul li{
+    position: relative;
+
+    border-right: 1px solid #c7c8ca;
+}
+.dws-menu > ul li > a i.fa{
+    font-size: 18px;
+
+    position: absolute;
+    top: 15px;
+    left: 12px;
+}
+.dws-menu > ul li:first-child{
+    border-left: 3px solid #b2b3b5;
+}
+.dws-menu > ul li:last-child{
+    border-right: 3px solid #babbbb;
+}
+.dws-menu li a:hover{
+    transition: all .3s ease;
+
+    color: #fff;
+    background: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+    background: #7d7e7d; /* Old browsers */
+    background:    -moz-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
+    background:         linear-gradient(to bottom, #7d7e7d 0%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    box-shadow: 1px 5px 18px -5px black;
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */;
+}
+
+/*sub menu*/
+.dws-menu li ul{
+    position: absolute;
+
+    display: none;
+
+    min-width: 150px;
+}
+.dws-menu li > ul li{
+    border: 1px solid #c7c8ca;
+}
+.dws-menu li > ul li a{
+    padding: 10px;
+
+    text-transform: none;
+
+    background: #e4e4e5;
+}
+.dws-menu li > ul li ul{
+    position: absolute;
+    top: 0;
+    right: -150px;
+}
+.dws-menu li:hover > ul{
+    display: block;
+}

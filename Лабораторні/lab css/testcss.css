@@ -1,0 +1,29 @@
+body{
+	background-image: url(Header_1600x1000_264197.jpg);
+}
+
+#test{
+	transform: rotate(0deg) scale(0.3);
+	transition: 2s all;
+}
+#test{
+	border:7px solid;
+	background-color: #fff;
+	color: black;
+	padding:75px;
+	margin: 15px;
+	opacity: 0.5;
+	text-align: center;
+	font-size:50px;
+	font-family: Arial;
+	font-weight: 900;
+	box-shadow: 10px 10px 10px #343434;
+	border-radius: 300px;
+	height: 300px;
+	display: block;
+}
+#test:hover{
+	transform: rotate(30deg) scale(0.4);
+	background-color: #FFCE42;
+	font-size: 70px;
+}

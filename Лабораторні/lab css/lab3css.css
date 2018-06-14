@@ -1,0 +1,22 @@
+header{
+	text-align: center;
+}
+.prisl1{
+ font-family:"Comic Sans MS";
+ color: green;
+}
+.prisl2{
+	font-family: "Courier New";
+	color: red;
+}
+.prisl3{
+	font-family: Impact;
+	color:maroon;
+}
+.prisl4{
+	font-family: arial;
+	color: purple;
+}
+b{
+	font-weight: bold;
+}

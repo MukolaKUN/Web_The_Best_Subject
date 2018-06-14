@@ -1,0 +1,10 @@
+
+div{
+	margin:50px 50px;
+	width: 200px;
+	height: 200px;
+	border-bottom:5px solid #7922CC;
+	border-top: 5px solid #7922CC;
+	border-left: 3px dashed red;
+	border-right:7px double yellow;
+}

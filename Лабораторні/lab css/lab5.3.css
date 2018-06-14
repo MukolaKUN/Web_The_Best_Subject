@@ -1,0 +1,27 @@
+body{
+	background-color: aqua;
+}
+.earth{
+	color :blue;
+}
+.moon{
+	color:red;
+}
+.linia{
+	width: 30%;
+	float: left;
+
+}
+.earth_line{
+	size: 500px;
+	color: blue;
+	float:left;
+	width: 100%;
+	border: 0;
+}
+.moon_line{
+	width: 35px;
+	color: red;
+	float: left;
+	size: 300px;
+}

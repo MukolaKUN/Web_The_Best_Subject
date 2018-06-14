@@ -1,0 +1,289 @@
+/**index.html**/
+body{
+	background-image: url(klitynka.gif);
+	margin: 0px;
+	padding:0px;
+	font-family: "book antiqua";
+}
+
+.wrapper{
+	width: 100%;
+}
+ aside{
+	 background: #320000;
+    float: left;
+    width: 20%;
+    height: 100%;
+    display: block;
+}
+aside img{
+	margin: 30px 35px;
+	width: 200px;
+	height: 300px;
+}
+aside img:hover{
+	border: 3px solid white;
+}
+
+.main{
+	width: 80%;
+	height: 100%;
+	float: right;
+}
+.readukrgif{
+	width: 300px;
+	margin-top: 10px;
+	margin-left: 780px;
+	border: 1px solid blue;
+}
+.menu{
+	list-style: none;
+}
+
+.menu a{
+	display: block;
+	margin: 20px 50px 10px 0px;
+    background-color: #FFCC9A;
+    color: #D5888E;
+    text-align: center;
+    font-size: 18px;
+    border:1px solid;
+}
+
+.main-text{
+	height: 60%;
+	padding-left: 10px;
+	padding-right: 30px;
+	text-align: justify;
+	font-size: 25px;
+	color: red;
+}
+.main-info {
+	text-indent: 50px;
+}
+.lasttext {
+	color: black;
+	font-family: "Arial Narrow";
+	font-size: 20px;
+	margin-top:45px;
+}
+
+.footer{
+	margin-top:110px;
+	font-size: 18px;
+}
+
+.footer ul{
+	list-style: none;
+}
+
+.footer li{
+	margin-left: 20px;
+	margin-right: 180px;
+	display: inline;
+	position: relative;
+	z-index: 3;
+}
+.footer a:hover{
+	border: 3px solid yellow;
+	background-color: red;
+	color: white;
+}
+.menu a:hover{
+	background-color: red;
+	color:white;
+	border:2px solid yellow;
+}
+
+}
+.pen{
+	margin-top: 95px;
+	display: absolute
+}
+.map{
+margin-top: 60px;
+position: absolute;
+}
+/**kostenko.html**/
+.kostenkojpg{
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 10px;
+	float: left;
+}
+.kostenko-h2{
+	float: left;
+	display: block;
+	width: 15%;
+	position: absolute;
+	margin-left:200px;
+	color: #3F3EA0;
+	font-size: 36px;
+	font-style: oblique;
+	letter-spacing: 5px;
+	text-indent: 40px;
+}
+.kostenko-epigraph{
+	display: block;
+	width: 20%;
+	position: absolute;
+	text-align: justify;
+	margin-top: 130px;
+	margin-left:200px;;
+	color: red;
+	font-size: 16px;
+}
+.kostenko-text{
+	text-align: justify;
+	font-style: "Arial";
+	color: #975354;
+	padding:10px 10px 30px 10px;
+	font-size: 19px;
+}
+.kostenko-paragraph2{
+	margin-top: 21px;
+}
+.footer-kostenko{
+	font-size: 18px;
+}
+.footer-kostenko ul{
+	margin-top: 72px;
+	list-style: none;
+}
+.footer-kostenko li{
+	display: inline;
+	position: relative;
+	margin-left: 47px;
+	margin-right: 167px;
+}
+.footer-kostenko a:hover{
+	border: 3px solid yellow;
+	background-color: red;
+	color: white;
+}
+.kostenkojpg:hover{
+	width: 170;
+	height: 235;
+	border: 2px solid red;
+}
+/**symonenko.html**/
+.symonenko-text{
+	font-family: "Courier New";
+	color: #914D4C;
+	text-align: justify;
+	padding: 20px 15px 20px 15px;
+	font-size: 18px;
+}
+.symonenko-lasttext{
+	padding-left: 30px;
+}
+.symonenkojpg{
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.symonenko-h2{
+	float: left;
+	display: block;
+	width: 15%;
+	position: absolute;
+	margin-left:650px;
+	color: #3F3EA0;
+	font-size: 35px;
+	font-style: oblique;
+	letter-spacing: 5px;
+	text-indent: 40px;
+}
+.symonenko-epigraph{
+	display: block;
+	width: 20%;
+	position: absolute;
+	text-align: justify;
+	margin-top: 120px;
+	margin-left:650px;;
+	color: red;
+	font-size: 15px;
+}
+.footer-symonenko{
+	font-size: 18px;
+}
+.footer-symonenko ul{
+	margin-top: 60px;
+	list-style: none;
+}
+.footer-symonenko li{
+	display: inline;
+	position: relative;
+	margin-top:150PX;
+	margin-left: 50px;
+	margin-right: 170px;
+}
+.footer-symonenko a:hover{
+	border: 3px solid yellow;
+	background-color: red;
+	color: white;
+}
+.symonenkojpg:hover{
+	width: 160;
+	height: 230;
+	border: 2px solid red;
+}
+/**pavlychko.html**/
+.pavlychkojpg{
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	display: block;
+}
+.pavlychko-h2{
+	float: right;
+	display: block;
+	width: 15%;
+	position: absolute;
+	margin-left:200px;
+	color: #3F3EA0;
+	font-size: 35px;
+	font-style: oblique;
+	letter-spacing: 5px;
+	text-indent: 40px;
+}
+.pavlychko-epigraph{
+	font-family: "Tahoma";
+	display: block;
+	width: 20%;
+	position: absolute;
+	text-align: justify;
+	margin-top: 120px;
+	margin-left:200px;;
+	color: red;
+	font-size: 15px;
+}
+.pavlychko-text{
+	font-family: "Tahoma";
+	color:#934C4C;
+	padding:30px 10px 10px 10px;
+}
+.footer-pavlychko{
+	font-size: 18px;
+}
+.footer-pavlychko ul{
+	margin-top: 45px;
+	list-style: none;
+}
+.footer-pavlychko li{
+	display: inline;
+	position: relative;
+	margin-top:150PX;
+	margin-left: 50px;
+	margin-right: 170px;
+}
+.footer-pavlychko a:hover{
+	border: 3px solid yellow;
+	background-color: red;
+	color: white;
+}
+.pavlychkojpg:hover{
+	width: 180;
+	height: 250;
+	border:2px solid red;
+}

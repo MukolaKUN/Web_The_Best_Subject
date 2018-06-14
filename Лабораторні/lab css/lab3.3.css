@@ -1,0 +1,14 @@
+header{
+	text-align: center;
+	font-family: Tahoma;
+	color: navy;
+}
+
+.main{
+	font-family: Arial;
+	color: #800080;
+}
+b{
+	text-decoration: underline;
+	font-weight: bold;
+}
